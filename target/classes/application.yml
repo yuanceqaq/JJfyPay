@@ -1,0 +1,20 @@
+
+server:
+  port: 8081
+spring:
+#   数据库连接池
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/jjfy?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#   数据模板
+  thymeleaf:
+    cache: false
+  jpa:
+#   底层使用hibernate
+    hibernate:
+#     表自动生成策略
+      ddl-auto: update
+    #   显示sql
+    show-sql: true

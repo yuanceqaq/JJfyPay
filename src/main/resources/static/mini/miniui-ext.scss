@@ -1,0 +1,67 @@
+body{
+  .asLabel .mini-textbox-border,
+  .asLabel .mini-textbox-input,
+  .asLabel .mini-buttonedit-border,
+  .asLabel .mini-buttonedit-input,
+  .asLabel .mini-textboxlist-border,
+  .asLabel .mini-buttonedit-disabled
+  {
+    border:0;
+    background:none;
+    cursor:default;
+    color: #362b36;
+  }
+  .asLabel .mini-buttonedit-button,
+  .asLabel .mini-textboxlist-close
+  {
+    display:none;
+  }
+  .asLabel .mini-textboxlist-item
+  {
+    padding-right:8px;
+  }
+}
+.mini-form-label {
+  width: 130px;
+  text-align: right;
+  font-size: 16px;
+}
+.mini-form-input {
+  width: 100% !important;
+}
+.mini-option {
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.mini-grid-cell, .mini-listbox-item td, .mini-grid-detailCell
+{
+  border-color:#bbb;
+}
+.mini-grid-headerCell-inner{
+  font-weight: bolder;
+}
+
+.mini-widget, body,
+.mini-button, .mini-menuitem, .mini-layout-region-header, .mini-panel-header,
+.mini-outlookbar-groupHeader,
+.mini-grid-headerCell, .mini-grid-cell, .mini-grid-columnproxy,
+.mini-listbox td,
+.mini-calendar, .mini-calendar-button,
+.mini-tabs,
+.mini-tree,
+.mini-textbox-input,
+.mini-buttonedit-input,
+.mini-textboxlist-input,
+.mini-textboxlist,
+.mini-pager,
+.mini-checkboxlist table label, .mini-radiobuttonlist table label,
+.mini-checkbox,
+.mini-checkboxlist, .mini-radiobuttonlist, .mini-radiobuttonlist label,
+.mini-layout,
+.mini-calendar, .mini-calendar-menu-month, mini-calendar-date, mini-calendar-menu-year, .mini-calendar-title
+{
+  font-family:"Microsoft YaHei","simsun","Helvetica Neue",Arial,Helvetica,sans-serif;
+  font-size:16px;
+}
