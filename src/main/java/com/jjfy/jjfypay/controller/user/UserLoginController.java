@@ -15,10 +15,6 @@ public class UserLoginController {
     @Autowired
     UserService userService;
 
-    @RequestMapping("/index")
-    public String  index(){
-        return "index";
-    }
     @RequestMapping("/login")
     public String  login(@RequestParam User user){
         userService.login(user);
